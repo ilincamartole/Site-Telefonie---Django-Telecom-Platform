@@ -1,0 +1,1430 @@
+2026-01-05 19:32:57,017 [WARNING] log 6604 11256: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-05 19:32:57,017 [WARNING] log 6604 19888: Not Found: /media/servicii/collection-of-ringing-phones-vector.jpg
+2026-01-05 19:32:57,019 [WARNING] log 6604 12708: Not Found: /media/servicii/internet-banner.png
+2026-01-05 19:32:57,020 [WARNING] basehttp 6604 11256: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-05 19:32:57,020 [WARNING] basehttp 6604 19888: "GET /media/servicii/collection-of-ringing-phones-vector.jpg HTTP/1.1" 404 2497
+2026-01-05 19:32:57,020 [WARNING] basehttp 6604 12708: "GET /media/servicii/internet-banner.png HTTP/1.1" 404 2437
+2026-01-05 19:32:57,037 [WARNING] log 6604 19888: Not Found: /media/servicii/gigabit-router.avif
+2026-01-05 19:32:57,039 [WARNING] log 6604 11256: Not Found: /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif
+2026-01-05 19:32:57,040 [WARNING] basehttp 6604 11256: "GET /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif HTTP/1.1" 404 2545
+2026-01-05 19:32:57,040 [WARNING] basehttp 6604 19888: "GET /media/servicii/gigabit-router.avif HTTP/1.1" 404 2437
+2026-01-05 19:49:45,951 [WARNING] log 3048 26160: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-05 19:49:45,952 [WARNING] basehttp 3048 26160: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-05 19:49:45,963 [WARNING] log 3048 26160: Not Found: /media/servicii/internet-banner.png
+2026-01-05 19:49:45,965 [WARNING] basehttp 3048 26160: "GET /media/servicii/internet-banner.png HTTP/1.1" 404 2437
+2026-01-05 19:49:45,974 [WARNING] log 3048 26160: Not Found: /media/servicii/collection-of-ringing-phones-vector.jpg
+2026-01-05 19:49:45,975 [WARNING] basehttp 3048 26160: "GET /media/servicii/collection-of-ringing-phones-vector.jpg HTTP/1.1" 404 2497
+2026-01-05 19:49:45,991 [WARNING] log 3048 26160: Not Found: /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif
+2026-01-05 19:49:45,992 [WARNING] basehttp 3048 26160: "GET /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif HTTP/1.1" 404 2545
+2026-01-05 19:49:46,003 [WARNING] log 3048 26160: Not Found: /media/servicii/gigabit-router.avif
+2026-01-05 19:49:46,004 [WARNING] basehttp 3048 26160: "GET /media/servicii/gigabit-router.avif HTTP/1.1" 404 2437
+2026-01-05 19:49:47,266 [WARNING] log 3048 26160: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-05 19:49:47,267 [WARNING] basehttp 3048 26160: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-05 19:49:53,069 [WARNING] log 3048 26160: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-05 19:49:53,070 [WARNING] log 3048 13728: Not Found: /media/servicii/gigabit-router.avif
+2026-01-05 19:49:53,072 [WARNING] log 3048 2856: Not Found: /media/servicii/internet-banner.png
+2026-01-05 19:49:53,073 [WARNING] log 3048 25596: Not Found: /media/servicii/collection-of-ringing-phones-vector.jpg
+2026-01-05 19:49:53,075 [WARNING] log 3048 2324: Not Found: /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif
+2026-01-05 19:49:53,076 [WARNING] basehttp 3048 2856: "GET /media/servicii/internet-banner.png HTTP/1.1" 404 2437
+2026-01-05 19:49:53,076 [WARNING] basehttp 3048 13728: "GET /media/servicii/gigabit-router.avif HTTP/1.1" 404 2437
+2026-01-05 19:49:53,077 [WARNING] basehttp 3048 26160: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-05 19:49:53,077 [WARNING] basehttp 3048 2324: "GET /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif HTTP/1.1" 404 2545
+2026-01-05 19:49:53,077 [WARNING] basehttp 3048 25596: "GET /media/servicii/collection-of-ringing-phones-vector.jpg HTTP/1.1" 404 2497
+2026-01-05 19:49:57,515 [WARNING] log 3048 25596: Not Found: /media/servicii/internet-banner.png
+2026-01-05 19:49:57,516 [WARNING] basehttp 3048 25596: "GET /media/servicii/internet-banner.png HTTP/1.1" 404 2437
+2026-01-05 19:50:02,366 [WARNING] basehttp 3048 25596: "GET /static/images/poza2.png HTTP/1.1" 404 1862
+2026-01-07 23:08:05,859 [WARNING] log 25032 15092: Not Found: /
+2026-01-07 23:08:05,860 [WARNING] basehttp 25032 15092: "GET / HTTP/1.1" 404 2317
+2026-01-11 14:55:28,200 [ERROR] log 39544 30288: Internal Server Error: /site_telefonie/interzis/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 979, in eroare_403_view
+    render(request, '403.html', context)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: 403.html
+2026-01-11 14:55:28,204 [ERROR] basehttp 39544 30288: "GET /site_telefonie/interzis/ HTTP/1.1" 500 84562
+2026-01-11 14:56:34,069 [ERROR] log 39544 30288: Internal Server Error: /site_telefonie/interzis/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 979, in eroare_403_view
+    render(request, '403.html', context)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: 403.html
+2026-01-11 14:56:34,072 [ERROR] basehttp 39544 30288: "GET /site_telefonie/interzis/ HTTP/1.1" 500 84699
+2026-01-11 14:56:35,493 [ERROR] log 39544 30288: Internal Server Error: /site_telefonie/interzis/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 979, in eroare_403_view
+    render(request, '403.html', context)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: 403.html
+2026-01-11 14:56:35,496 [ERROR] basehttp 39544 30288: "GET /site_telefonie/interzis/ HTTP/1.1" 500 84699
+2026-01-11 14:57:35,533 [ERROR] log 7692 38996: Internal Server Error: /site_telefonie/interzis/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        template_name,
+        ^^^^^^^^^^^^^^
+        skip=history,
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: baza.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 979, in eroare_403_view
+    render(request, 'site_telefonie/403.html', context)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 109, in render
+    reraise(exc, self.backend)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 130, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: baza.html
+2026-01-11 14:57:35,537 [ERROR] basehttp 7692 38996: "GET /site_telefonie/interzis/ HTTP/1.1" 500 132322
+2026-01-11 14:58:05,444 [WARNING] log 7692 38996: Forbidden: /site_telefonie/interzis/
+2026-01-11 14:58:05,444 [WARNING] basehttp 7692 38996: "GET /site_telefonie/interzis/ HTTP/1.1" 403 3784
+2026-01-11 14:59:32,597 [WARNING] log 7692 38996: Forbidden: /site_telefonie/interzis/
+2026-01-11 14:59:32,598 [WARNING] basehttp 7692 38996: "GET /site_telefonie/interzis/ HTTP/1.1" 403 3784
+2026-01-11 14:59:33,428 [WARNING] log 7692 38996: Forbidden: /site_telefonie/interzis/
+2026-01-11 14:59:33,429 [WARNING] basehttp 7692 38996: "GET /site_telefonie/interzis/ HTTP/1.1" 403 3784
+2026-01-11 14:59:34,476 [WARNING] log 7692 38996: Forbidden: /site_telefonie/interzis/
+2026-01-11 14:59:34,477 [WARNING] basehttp 7692 38996: "GET /site_telefonie/interzis/ HTTP/1.1" 403 3784
+2026-01-11 14:59:34,957 [WARNING] log 7692 38996: Forbidden: /site_telefonie/interzis/
+2026-01-11 14:59:34,958 [WARNING] basehttp 7692 38996: "GET /site_telefonie/interzis/ HTTP/1.1" 403 3784
+2026-01-11 14:59:35,875 [WARNING] log 7692 38996: Forbidden: /site_telefonie/interzis/
+2026-01-11 14:59:35,876 [WARNING] basehttp 7692 38996: "GET /site_telefonie/interzis/ HTTP/1.1" 403 3896
+2026-01-11 15:03:36,993 [WARNING] log 7692 38996: Forbidden: /site_telefonie/interzis/
+2026-01-11 15:03:36,994 [WARNING] basehttp 7692 38996: "GET /site_telefonie/interzis/ HTTP/1.1" 403 4019
+2026-01-11 15:04:03,154 [WARNING] log 25856 5844: Forbidden: /site_telefonie/interzis/
+2026-01-11 15:04:03,155 [WARNING] basehttp 25856 5844: "GET /site_telefonie/interzis/ HTTP/1.1" 403 4019
+2026-01-11 15:04:14,131 [WARNING] log 25856 5844: Forbidden: /site_telefonie/interzis/
+2026-01-11 15:04:14,132 [WARNING] basehttp 25856 5844: "GET /site_telefonie/interzis/ HTTP/1.1" 403 4019
+2026-01-11 15:06:59,183 [WARNING] log 10452 37884: Forbidden: /site_telefonie/interzis/
+2026-01-11 15:06:59,184 [WARNING] basehttp 10452 37884: "GET /site_telefonie/interzis/ HTTP/1.1" 403 3907
+2026-01-11 15:07:00,503 [WARNING] log 10452 37884: Forbidden: /site_telefonie/interzis/
+2026-01-11 15:07:00,503 [WARNING] basehttp 10452 37884: "GET /site_telefonie/interzis/ HTTP/1.1" 403 3907
+2026-01-11 15:07:01,282 [WARNING] log 10452 37884: Forbidden: /site_telefonie/interzis/
+2026-01-11 15:07:01,283 [WARNING] basehttp 10452 37884: "GET /site_telefonie/interzis/ HTTP/1.1" 403 3907
+2026-01-11 15:07:01,990 [WARNING] log 10452 37884: Forbidden: /site_telefonie/interzis/
+2026-01-11 15:07:01,991 [WARNING] basehttp 10452 37884: "GET /site_telefonie/interzis/ HTTP/1.1" 403 3907
+2026-01-11 15:07:02,631 [WARNING] log 10452 37884: Forbidden: /site_telefonie/interzis/
+2026-01-11 15:07:02,632 [WARNING] basehttp 10452 37884: "GET /site_telefonie/interzis/ HTTP/1.1" 403 3907
+2026-01-11 15:07:03,051 [WARNING] log 10452 37884: Forbidden: /site_telefonie/interzis/
+2026-01-11 15:07:03,052 [WARNING] basehttp 10452 37884: "GET /site_telefonie/interzis/ HTTP/1.1" 403 4019
+2026-01-11 15:07:03,874 [WARNING] log 10452 37884: Forbidden: /site_telefonie/interzis/
+2026-01-11 15:07:03,875 [WARNING] basehttp 10452 37884: "GET /site_telefonie/interzis/ HTTP/1.1" 403 4019
+2026-01-11 15:07:11,019 [WARNING] log 10452 37884: Forbidden: /site_telefonie/interzis/
+2026-01-11 15:07:11,020 [WARNING] basehttp 10452 37884: "GET /site_telefonie/interzis/ HTTP/1.1" 403 3784
+2026-01-11 15:07:13,294 [WARNING] log 10452 37884: Forbidden: /site_telefonie/interzis/
+2026-01-11 15:07:13,295 [WARNING] basehttp 10452 37884: "GET /site_telefonie/interzis/ HTTP/1.1" 403 3784
+2026-01-11 15:07:13,715 [WARNING] log 10452 37884: Forbidden: /site_telefonie/interzis/
+2026-01-11 15:07:13,716 [WARNING] basehttp 10452 37884: "GET /site_telefonie/interzis/ HTTP/1.1" 403 3784
+2026-01-11 15:59:34,865 [WARNING] log 35088 40568: Forbidden (CSRF token from POST incorrect.): /site_telefonie/login/
+2026-01-11 15:59:34,867 [WARNING] basehttp 35088 40568: "POST /site_telefonie/login/ HTTP/1.1" 403 2503
+2026-01-11 16:04:46,961 [ERROR] basehttp 35088 40568: "GET /site_telefonie/produse/adauga/ HTTP/1.1" 500 69418
+2026-01-11 16:09:31,818 [WARNING] log 8112 27176: Forbidden: /site_telefonie/produse/adauga/
+2026-01-11 16:09:31,819 [WARNING] basehttp 8112 27176: "GET /site_telefonie/produse/adauga/ HTTP/1.1" 403 3915
+2026-01-11 17:54:46,157 [WARNING] log 41848 4848: Forbidden: /site_telefonie/info/
+2026-01-11 17:54:46,158 [WARNING] basehttp 41848 4848: "GET /site_telefonie/info/ HTTP/1.1" 403 3897
+2026-01-11 17:55:18,060 [WARNING] log 41780 5956: Forbidden: /site_telefonie/log/
+2026-01-11 17:55:18,061 [WARNING] basehttp 41780 5956: "GET /site_telefonie/log/ HTTP/1.1" 403 3898
+2026-01-11 17:58:45,468 [ERROR] log 27776 19032: Internal Server Error: /site_telefonie/log/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\smartif.py", line 180, in translate_token
+    op = OPERATORS[token]
+         ~~~~~~~~~^^^^^^^
+KeyError: 'user.groups.filter(name="Administratori_site").exists'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 165, in log
+    return eroare_403_view(
+        request,
+        titlu="Eroare 403",
+        mesaj="Nu ai acces la pagina /log"
+    )
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 1002, in eroare_403_view
+    return render(request, "site_telefonie/403.html", context, status=403)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        template_name,
+        ^^^^^^^^^^^^^^
+        skip=history,
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 961, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 894, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\smartif.py", line 171, in __init__
+    mapped_tokens.append(self.translate_token(token))
+                         ~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\smartif.py", line 182, in translate_token
+    return self.create_var(token)
+           ~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 897, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 609, in compile_filter
+    return FilterExpression(token, self)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 710, in __init__
+    raise TemplateSyntaxError(
+    ...<2 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(name="Administratori_site").exists' from 'user.groups.filter(name="Administratori_site").exists'
+2026-01-11 17:58:45,473 [ERROR] basehttp 27776 19032: "GET /site_telefonie/log/ HTTP/1.1" 500 229462
+2026-01-11 18:01:20,088 [WARNING] log 30492 37460: Forbidden: /site_telefonie/log/
+2026-01-11 18:01:20,088 [WARNING] basehttp 30492 37460: "GET /site_telefonie/log/ HTTP/1.1" 403 3459
+2026-01-11 18:01:47,458 [WARNING] log 30492 37460: Not Found: /
+2026-01-11 18:01:47,459 [WARNING] basehttp 30492 37460: "GET / HTTP/1.1" 404 2317
+2026-01-11 18:02:02,894 [WARNING] log 30492 37460: Forbidden (CSRF token from POST incorrect.): /site_telefonie/login/
+2026-01-11 18:02:02,894 [WARNING] basehttp 30492 37460: "POST /site_telefonie/login/ HTTP/1.1" 403 2503
+2026-01-11 18:02:13,892 [WARNING] log 30492 37460: Forbidden: /site_telefonie/log/
+2026-01-11 18:02:13,893 [WARNING] basehttp 30492 37460: "GET /site_telefonie/log/ HTTP/1.1" 403 4007
+2026-01-11 18:24:03,276 [WARNING] basehttp 29560 22760: "GET /static/images/poza2.png HTTP/1.1" 404 1862
+2026-01-11 18:24:04,216 [WARNING] log 29560 41084: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-11 18:24:04,217 [WARNING] log 29560 43936: Not Found: /media/servicii/internet-banner.png
+2026-01-11 18:24:04,218 [WARNING] basehttp 29560 41084: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-11 18:24:04,218 [WARNING] basehttp 29560 43936: "GET /media/servicii/internet-banner.png HTTP/1.1" 404 2437
+2026-01-11 18:24:04,226 [WARNING] log 29560 41084: Not Found: /media/servicii/collection-of-ringing-phones-vector.jpg
+2026-01-11 18:24:04,228 [WARNING] log 29560 43936: Not Found: /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif
+2026-01-11 18:24:04,228 [WARNING] basehttp 29560 43936: "GET /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif HTTP/1.1" 404 2545
+2026-01-11 18:24:04,228 [WARNING] basehttp 29560 41084: "GET /media/servicii/collection-of-ringing-phones-vector.jpg HTTP/1.1" 404 2497
+2026-01-11 18:24:04,234 [WARNING] log 29560 41084: Not Found: /media/servicii/gigabit-router.avif
+2026-01-11 18:24:04,234 [WARNING] basehttp 29560 41084: "GET /media/servicii/gigabit-router.avif HTTP/1.1" 404 2437
+2026-01-11 18:25:58,390 [ERROR] log 23916 14292: Internal Server Error: /site_telefonie/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 291, in index
+    return render(request, "site_telefonie/index.html", {"ip": get_client_ip(request)})
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'claim_oferta' not found. 'claim_oferta' is not a valid view function or pattern name.
+2026-01-11 18:25:58,393 [ERROR] basehttp 23916 14292: "GET /site_telefonie/ HTTP/1.1" 500 155045
+2026-01-11 18:27:00,923 [ERROR] log 40980 41152: Internal Server Error: /site_telefonie/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 291, in index
+    return render(request, "site_telefonie/index.html", {"ip": get_client_ip(request)})
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'oferta' not found. 'oferta' is not a valid view function or pattern name.
+2026-01-11 18:27:00,926 [ERROR] basehttp 40980 41152: "GET /site_telefonie/ HTTP/1.1" 500 154363
+2026-01-11 18:27:04,367 [ERROR] log 40980 41152: Internal Server Error: /site_telefonie/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 291, in index
+    return render(request, "site_telefonie/index.html", {"ip": get_client_ip(request)})
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'oferta' not found. 'oferta' is not a valid view function or pattern name.
+2026-01-11 18:27:04,371 [ERROR] basehttp 40980 41152: "GET /site_telefonie/ HTTP/1.1" 500 154226
+2026-01-11 18:27:43,511 [ERROR] log 40832 20656: Internal Server Error: /site_telefonie/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 291, in index
+    return render(request, "site_telefonie/index.html", {"ip": get_client_ip(request)})
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 327, in render
+    return nodelist.render(context)
+           ~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'oferta' not found. 'oferta' is not a valid view function or pattern name.
+2026-01-11 18:27:43,515 [ERROR] basehttp 40832 20656: "GET /site_telefonie/ HTTP/1.1" 500 154363
+2026-01-11 18:33:21,420 [ERROR] log 14220 35760: Internal Server Error: /site_telefonie/oferta/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 1028, in oferta_view
+    return render(request, "site_telefonie/oferta.html")
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 299, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 961, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\smartif.py", line 198, in parse
+    raise self.error_class(
+        "Unused '%s' at end of if expression." % self.current_token.display()
+    )
+django.template.exceptions.TemplateSyntaxError: Unused ''site_telefonie.vizualizeaza_oferta'' at end of if expression.
+2026-01-11 18:33:21,423 [ERROR] basehttp 14220 35760: "GET /site_telefonie/oferta/ HTTP/1.1" 500 181179
+2026-01-11 18:33:21,646 [ERROR] log 14220 37464: Internal Server Error: /site_telefonie/oferta/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 1028, in oferta_view
+    return render(request, "site_telefonie/oferta.html")
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 299, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 961, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\smartif.py", line 198, in parse
+    raise self.error_class(
+        "Unused '%s' at end of if expression." % self.current_token.display()
+    )
+django.template.exceptions.TemplateSyntaxError: Unused ''site_telefonie.vizualizeaza_oferta'' at end of if expression.
+2026-01-11 18:33:21,650 [ERROR] basehttp 14220 37464: "GET /site_telefonie/oferta/ HTTP/1.1" 500 181581
+2026-01-11 19:22:10,346 [ERROR] log 31152 33888: Internal Server Error: /site_telefonie/oferta/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'else'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\auth\decorators.py", line 59, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 1028, in oferta_view
+    return render(request, "site_telefonie/oferta.html")
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+        contents,
+    ...<2 lines>...
+        self.engine,
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 299, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 567, in invalid_block_tag
+    raise self.error(
+    ...<8 lines>...
+    )
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 13: 'else', expected 'endblock'. Did you forget to register or load this tag?
+2026-01-11 19:22:10,350 [ERROR] basehttp 31152 33888: "GET /site_telefonie/oferta/ HTTP/1.1" 500 175939
+2026-01-11 19:27:10,259 [WARNING] log 30304 43628: Forbidden: /site_telefonie/oferta/
+2026-01-11 19:27:10,260 [WARNING] basehttp 30304 43628: "GET /site_telefonie/oferta/ HTTP/1.1" 403 3255
+2026-01-13 17:33:57,281 [WARNING] log 3304 7844: Not Found: /favicon.ico
+2026-01-13 17:33:57,282 [WARNING] basehttp 3304 7844: "GET /favicon.ico HTTP/1.1" 404 2368
+2026-01-13 17:37:58,362 [ERROR] log 3304 26376: Internal Server Error: /site_telefonie/schimbare_parola/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 829, in schimbare_parola
+    return redirect('home')
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 51, in redirect
+    resolve_url(to, *args, **kwargs),
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 184, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\base.py", line 98, in reverse
+    resolved_url = resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+2026-01-13 17:37:58,364 [ERROR] basehttp 3304 26376: "POST /site_telefonie/schimbare_parola/ HTTP/1.1" 500 91199
+2026-01-13 17:38:34,245 [ERROR] log 23704 4968: Internal Server Error: /site_telefonie/schimbare_parola/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 825, in schimbare_parola
+    if form.is_valid():
+       ~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 206, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 201, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 337, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 347, in _clean_fields
+    value = getattr(self, "clean_%s" % name)()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\auth\forms.py", line 559, in clean_old_password
+    if not self.user.check_password(old_password):
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\auth\models.py", line 570, in check_password
+    raise NotImplementedError(
+        "Django doesn't provide a DB representation for AnonymousUser."
+    )
+NotImplementedError: Django doesn't provide a DB representation for AnonymousUser.
+2026-01-13 17:38:34,247 [ERROR] basehttp 23704 4968: "POST /site_telefonie/schimbare_parola/ HTTP/1.1" 500 100229
+2026-01-13 17:40:45,649 [ERROR] log 21232 20208: Internal Server Error: /site_telefonie/schimbare_parola/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 826, in schimbare_parola
+    form = PasswordChangeForm(user=request.user, data=request.POST)
+       ^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 206, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 201, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 337, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 347, in _clean_fields
+    value = getattr(self, "clean_%s" % name)()
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\views\decorators\debug.py", line 75, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\auth\forms.py", line 559, in clean_old_password
+    if not self.user.check_password(old_password):
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\contrib\auth\models.py", line 570, in check_password
+    raise NotImplementedError(
+        "Django doesn't provide a DB representation for AnonymousUser."
+    )
+NotImplementedError: Django doesn't provide a DB representation for AnonymousUser.
+2026-01-13 17:40:45,651 [ERROR] basehttp 21232 20208: "POST /site_telefonie/schimbare_parola/ HTTP/1.1" 500 100120
+2026-01-13 18:07:33,064 [WARNING] log 21232 8368: Forbidden (CSRF token from POST incorrect.): /site_telefonie/login/
+2026-01-13 18:07:33,066 [WARNING] basehttp 21232 8368: "POST /site_telefonie/login/ HTTP/1.1" 403 2503
+2026-01-13 18:07:37,826 [WARNING] log 21232 8368: Forbidden (CSRF token from POST incorrect.): /site_telefonie/login/
+2026-01-13 18:07:37,827 [WARNING] basehttp 21232 8368: "POST /site_telefonie/login/ HTTP/1.1" 403 2503
+2026-01-13 18:09:03,760 [WARNING] log 21232 8368: Not Found: /aplicatie_exemplu/prajituri
+2026-01-13 18:09:03,761 [WARNING] basehttp 21232 8368: "GET /aplicatie_exemplu/prajituri?tip=patiserie HTTP/1.1" 404 2430
+2026-01-13 18:10:31,268 [WARNING] log 21232 8368: Not Found: /aplicatie_exemplu/prajituri
+2026-01-13 18:10:31,269 [WARNING] basehttp 21232 8368: "GET /aplicatie_exemplu/prajituri?tip=gelaterie HTTP/1.1" 404 2430
+2026-01-13 18:10:33,649 [WARNING] log 21232 8368: Not Found: /aplicatie_exemplu/prajituri
+2026-01-13 18:10:33,650 [WARNING] basehttp 21232 8368: "GET /aplicatie_exemplu/prajituri HTTP/1.1" 404 2416
+2026-01-13 18:10:34,423 [WARNING] log 21232 8368: Not Found: /aplicatie_exemplu/index
+2026-01-13 18:10:34,424 [WARNING] basehttp 21232 8368: "GET /aplicatie_exemplu/index HTTP/1.1" 404 2404
+2026-01-13 18:10:53,129 [WARNING] log 21232 8368: Forbidden: /site_telefonie/info/
+2026-01-13 18:10:53,130 [WARNING] basehttp 21232 8368: "GET /site_telefonie/info/ HTTP/1.1" 403 3908
+2026-01-13 18:19:17,092 [WARNING] basehttp 16992 4820: "GET /static/images/poza2.png HTTP/1.1" 404 1862
+2026-01-13 18:19:18,762 [WARNING] log 16992 24044: Not Found: /media/servicii/internet-banner.png
+2026-01-13 18:19:18,762 [WARNING] log 16992 26716: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-13 18:19:18,763 [WARNING] basehttp 16992 24044: "GET /media/servicii/internet-banner.png HTTP/1.1" 404 2437
+2026-01-13 18:19:18,763 [WARNING] basehttp 16992 26716: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-13 18:19:18,777 [WARNING] log 16992 26716: Not Found: /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif
+2026-01-13 18:19:18,780 [WARNING] log 16992 24044: Not Found: /media/servicii/collection-of-ringing-phones-vector.jpg
+2026-01-13 18:19:18,780 [WARNING] basehttp 16992 26716: "GET /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif HTTP/1.1" 404 2545
+2026-01-13 18:19:18,780 [WARNING] basehttp 16992 24044: "GET /media/servicii/collection-of-ringing-phones-vector.jpg HTTP/1.1" 404 2497
+2026-01-13 18:19:18,791 [WARNING] log 16992 24044: Not Found: /media/servicii/gigabit-router.avif
+2026-01-13 18:19:18,791 [WARNING] basehttp 16992 24044: "GET /media/servicii/gigabit-router.avif HTTP/1.1" 404 2437
+2026-01-13 18:19:55,902 [WARNING] log 16992 24044: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-13 18:19:55,924 [WARNING] basehttp 16992 24044: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-13 18:19:55,931 [WARNING] log 16992 26716: Not Found: /media/servicii/internet-banner.png
+2026-01-13 18:19:55,934 [WARNING] log 16992 27548: Not Found: /media/servicii/gigabit-router.avif
+2026-01-13 18:19:55,936 [WARNING] log 16992 23636: Not Found: /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif
+2026-01-13 18:19:55,940 [WARNING] log 16992 24004: Not Found: /media/servicii/collection-of-ringing-phones-vector.jpg
+2026-01-13 18:19:55,941 [WARNING] basehttp 16992 27548: "GET /media/servicii/gigabit-router.avif HTTP/1.1" 404 2437
+2026-01-13 18:19:55,941 [WARNING] basehttp 16992 23636: "GET /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif HTTP/1.1" 404 2545
+2026-01-13 18:19:55,941 [WARNING] basehttp 16992 26716: "GET /media/servicii/internet-banner.png HTTP/1.1" 404 2437
+2026-01-13 18:19:55,942 [WARNING] basehttp 16992 24004: "GET /media/servicii/collection-of-ringing-phones-vector.jpg HTTP/1.1" 404 2497
+2026-01-13 18:19:57,652 [WARNING] log 16992 24004: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-13 18:19:57,654 [WARNING] basehttp 16992 24004: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-13 18:26:34,780 [WARNING] log 16992 18184: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-13 18:26:34,782 [WARNING] log 16992 8704: Not Found: /media/servicii/internet-banner.png
+2026-01-13 18:26:34,783 [WARNING] log 16992 18484: Not Found: /media/servicii/collection-of-ringing-phones-vector.jpg
+2026-01-13 18:26:34,784 [WARNING] basehttp 16992 18184: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-13 18:26:34,784 [WARNING] basehttp 16992 8704: "GET /media/servicii/internet-banner.png HTTP/1.1" 404 2437
+2026-01-13 18:26:34,785 [WARNING] basehttp 16992 18484: "GET /media/servicii/collection-of-ringing-phones-vector.jpg HTTP/1.1" 404 2497
+2026-01-13 18:26:34,799 [WARNING] log 16992 8704: Not Found: /media/servicii/gigabit-router.avif
+2026-01-13 18:26:34,802 [WARNING] log 16992 18184: Not Found: /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif
+2026-01-13 18:26:34,802 [WARNING] basehttp 16992 18184: "GET /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif HTTP/1.1" 404 2545
+2026-01-13 18:26:34,803 [WARNING] basehttp 16992 8704: "GET /media/servicii/gigabit-router.avif HTTP/1.1" 404 2437
+2026-01-13 18:26:36,577 [WARNING] log 16992 8704: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-13 18:26:36,579 [WARNING] basehttp 16992 8704: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-13 18:26:46,801 [WARNING] log 16992 8704: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-13 18:26:46,803 [WARNING] basehttp 16992 8704: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-13 18:26:48,619 [WARNING] log 16992 8704: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-13 18:26:48,620 [WARNING] basehttp 16992 8704: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-13 18:26:49,256 [WARNING] log 16992 8704: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-13 18:26:49,257 [WARNING] basehttp 16992 8704: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-13 18:29:43,673 [WARNING] basehttp 25448 2488: "GET /static/images/poza2.png HTTP/1.1" 404 1862
+2026-01-13 18:29:44,690 [WARNING] log 25448 2708: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-13 18:29:44,691 [WARNING] log 25448 13364: Not Found: /media/servicii/internet-banner.png
+2026-01-13 18:29:44,692 [WARNING] basehttp 25448 2708: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-13 18:29:44,692 [WARNING] basehttp 25448 13364: "GET /media/servicii/internet-banner.png HTTP/1.1" 404 2437
+2026-01-13 18:29:44,706 [WARNING] log 25448 13364: Not Found: /media/servicii/collection-of-ringing-phones-vector.jpg
+2026-01-13 18:29:44,708 [WARNING] log 25448 2708: Not Found: /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif
+2026-01-13 18:29:44,709 [WARNING] basehttp 25448 2708: "GET /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif HTTP/1.1" 404 2545
+2026-01-13 18:29:44,709 [WARNING] basehttp 25448 13364: "GET /media/servicii/collection-of-ringing-phones-vector.jpg HTTP/1.1" 404 2497
+2026-01-13 18:29:44,721 [WARNING] log 25448 2708: Not Found: /media/servicii/gigabit-router.avif
+2026-01-13 18:29:44,722 [WARNING] basehttp 25448 2708: "GET /media/servicii/gigabit-router.avif HTTP/1.1" 404 2437
+2026-01-13 18:30:30,246 [WARNING] log 25448 2676: Not Found: /media/servicii/internet-banner.png
+2026-01-13 18:30:30,248 [WARNING] log 25448 25132: Not Found: /media/servicii/collection-of-ringing-phones-vector.jpg
+2026-01-13 18:30:30,250 [WARNING] log 25448 22580: Not Found: /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif
+2026-01-13 18:30:30,251 [WARNING] log 25448 13364: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-13 18:30:30,252 [WARNING] basehttp 25448 2676: "GET /media/servicii/internet-banner.png HTTP/1.1" 404 2437
+2026-01-13 18:30:30,252 [WARNING] basehttp 25448 22580: "GET /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif HTTP/1.1" 404 2545
+2026-01-13 18:30:30,252 [WARNING] basehttp 25448 25132: "GET /media/servicii/collection-of-ringing-phones-vector.jpg HTTP/1.1" 404 2497
+2026-01-13 18:30:30,253 [WARNING] basehttp 25448 13364: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-13 18:30:30,264 [WARNING] log 25448 2676: Not Found: /media/servicii/gigabit-router.avif
+2026-01-13 18:30:30,266 [WARNING] basehttp 25448 2676: "GET /media/servicii/gigabit-router.avif HTTP/1.1" 404 2437
+2026-01-13 18:30:30,339 [WARNING] log 25448 2708: Not Found: /favicon.ico
+2026-01-13 18:30:30,340 [WARNING] basehttp 25448 2708: "GET /favicon.ico HTTP/1.1" 404 2368
+2026-01-13 18:30:50,757 [WARNING] basehttp 25448 2708: "GET /static/images/poza2.png HTTP/1.1" 404 1862
+2026-01-13 18:30:54,162 [WARNING] log 25448 2676: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-13 18:30:54,177 [WARNING] basehttp 25448 2676: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-13 18:30:54,183 [WARNING] log 25448 13364: Not Found: /media/servicii/internet-banner.png
+2026-01-13 18:30:54,186 [WARNING] log 25448 12100: Not Found: /media/servicii/gigabit-router.avif
+2026-01-13 18:30:54,189 [WARNING] log 25448 25132: Not Found: /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif
+2026-01-13 18:30:54,190 [WARNING] log 25448 22580: Not Found: /media/servicii/collection-of-ringing-phones-vector.jpg
+2026-01-13 18:30:54,192 [WARNING] basehttp 25448 13364: "GET /media/servicii/internet-banner.png HTTP/1.1" 404 2437
+2026-01-13 18:30:54,192 [WARNING] basehttp 25448 12100: "GET /media/servicii/gigabit-router.avif HTTP/1.1" 404 2437
+2026-01-13 18:30:54,192 [WARNING] basehttp 25448 25132: "GET /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif HTTP/1.1" 404 2545
+2026-01-13 18:30:54,193 [WARNING] basehttp 25448 22580: "GET /media/servicii/collection-of-ringing-phones-vector.jpg HTTP/1.1" 404 2497
+2026-01-13 18:30:57,678 [WARNING] log 25448 22580: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-13 18:30:57,685 [WARNING] basehttp 25448 22580: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-13 18:30:57,686 [WARNING] log 25448 13364: Not Found: /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif
+2026-01-13 18:30:57,687 [WARNING] log 25448 25132: Not Found: /media/servicii/internet-banner.png
+2026-01-13 18:30:57,689 [WARNING] log 25448 12100: Not Found: /media/servicii/collection-of-ringing-phones-vector.jpg
+2026-01-13 18:30:57,691 [WARNING] log 25448 2676: Not Found: /media/servicii/gigabit-router.avif
+2026-01-13 18:30:57,692 [WARNING] basehttp 25448 13364: "GET /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif HTTP/1.1" 404 2545
+2026-01-13 18:30:57,693 [WARNING] basehttp 25448 25132: "GET /media/servicii/internet-banner.png HTTP/1.1" 404 2437
+2026-01-13 18:30:57,694 [WARNING] basehttp 25448 12100: "GET /media/servicii/collection-of-ringing-phones-vector.jpg HTTP/1.1" 404 2497
+2026-01-13 18:30:57,695 [WARNING] basehttp 25448 2676: "GET /media/servicii/gigabit-router.avif HTTP/1.1" 404 2437
+2026-01-13 18:31:15,508 [WARNING] log 25448 2676: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-13 18:31:15,512 [WARNING] log 25448 25132: Not Found: /media/servicii/collection-of-ringing-phones-vector.jpg
+2026-01-13 18:31:15,515 [WARNING] log 25448 12100: Not Found: /media/servicii/internet-banner.png
+2026-01-13 18:31:15,519 [WARNING] log 25448 13364: Not Found: /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif
+2026-01-13 18:31:15,522 [WARNING] log 25448 22580: Not Found: /media/servicii/gigabit-router.avif
+2026-01-13 18:31:15,524 [WARNING] basehttp 25448 2676: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-13 18:31:15,524 [WARNING] basehttp 25448 25132: "GET /media/servicii/collection-of-ringing-phones-vector.jpg HTTP/1.1" 404 2497
+2026-01-13 18:31:15,525 [WARNING] basehttp 25448 12100: "GET /media/servicii/internet-banner.png HTTP/1.1" 404 2437
+2026-01-13 18:31:15,525 [WARNING] basehttp 25448 13364: "GET /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif HTTP/1.1" 404 2545
+2026-01-13 18:31:15,526 [WARNING] basehttp 25448 22580: "GET /media/servicii/gigabit-router.avif HTTP/1.1" 404 2437
+2026-01-13 18:31:17,778 [WARNING] log 25448 22580: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-13 18:31:17,778 [WARNING] basehttp 25448 22580: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-13 18:32:54,665 [WARNING] log 25448 12100: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-13 18:32:54,667 [WARNING] log 25448 13364: Not Found: /media/servicii/internet-banner.png
+2026-01-13 18:32:54,669 [WARNING] log 25448 25132: Not Found: /media/servicii/collection-of-ringing-phones-vector.jpg
+2026-01-13 18:32:54,671 [WARNING] log 25448 2676: Not Found: /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif
+2026-01-13 18:32:54,678 [WARNING] basehttp 25448 12100: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-13 18:32:54,679 [WARNING] basehttp 25448 25132: "GET /media/servicii/collection-of-ringing-phones-vector.jpg HTTP/1.1" 404 2497
+2026-01-13 18:32:54,679 [WARNING] basehttp 25448 2676: "GET /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif HTTP/1.1" 404 2545
+2026-01-13 18:32:54,678 [WARNING] basehttp 25448 13364: "GET /media/servicii/internet-banner.png HTTP/1.1" 404 2437
+2026-01-13 18:32:54,686 [WARNING] log 25448 22580: Not Found: /media/servicii/gigabit-router.avif
+2026-01-13 18:32:54,687 [WARNING] basehttp 25448 22580: "GET /media/servicii/gigabit-router.avif HTTP/1.1" 404 2437
+2026-01-13 18:32:54,744 [WARNING] log 25448 22580: Not Found: /favicon.ico
+2026-01-13 18:32:54,745 [WARNING] basehttp 25448 22580: "GET /favicon.ico HTTP/1.1" 404 2368
+2026-01-13 18:35:18,831 [WARNING] log 25448 26704: Not Found: /favicon.ico
+2026-01-13 18:35:18,832 [WARNING] basehttp 25448 26704: "GET /favicon.ico HTTP/1.1" 404 2368
+2026-01-13 18:35:24,819 [WARNING] log 25448 26704: Not Found: /favicon.ico
+2026-01-13 18:35:24,820 [WARNING] basehttp 25448 26704: "GET /favicon.ico HTTP/1.1" 404 2368
+2026-01-13 18:36:51,448 [WARNING] log 25448 26704: Not Found: /favicon.ico
+2026-01-13 18:36:51,449 [WARNING] basehttp 25448 26704: "GET /favicon.ico HTTP/1.1" 404 2368
+2026-01-13 18:37:41,237 [WARNING] log 25448 26704: Not Found: /favicon.ico
+2026-01-13 18:37:41,238 [WARNING] basehttp 25448 26704: "GET /favicon.ico HTTP/1.1" 404 2368
+2026-01-13 18:38:24,377 [WARNING] log 25448 26704: Not Found: /favicon.ico
+2026-01-13 18:38:24,378 [WARNING] basehttp 25448 26704: "GET /favicon.ico HTTP/1.1" 404 2368
+2026-01-13 18:39:09,188 [WARNING] log 25448 26704: Not Found: /favicon.ico
+2026-01-13 18:39:09,189 [WARNING] basehttp 25448 26704: "GET /favicon.ico HTTP/1.1" 404 2368
+2026-01-13 18:40:18,628 [WARNING] log 25448 26704: Not Found: /favicon.ico
+2026-01-13 18:40:18,629 [WARNING] basehttp 25448 26704: "GET /favicon.ico HTTP/1.1" 404 2368
+2026-01-13 18:40:32,185 [WARNING] basehttp 25448 26704: "GET /static/images/poza2.png HTTP/1.1" 404 1862
+2026-01-13 18:41:24,045 [WARNING] log 25448 25268: Not Found: /favicon.ico
+2026-01-13 18:41:24,046 [WARNING] basehttp 25448 25268: "GET /favicon.ico HTTP/1.1" 404 2368
+2026-01-13 18:41:26,721 [WARNING] basehttp 25448 25268: "GET /static/images/poza2.png HTTP/1.1" 404 1862
+2026-01-13 18:42:12,756 [WARNING] log 25448 18376: Not Found: /favicon.ico
+2026-01-13 18:42:12,758 [WARNING] basehttp 25448 18376: "GET /favicon.ico HTTP/1.1" 404 2368
+2026-01-13 18:43:33,066 [WARNING] log 25448 18376: Not Found: /favicon.ico
+2026-01-13 18:43:33,068 [WARNING] basehttp 25448 18376: "GET /favicon.ico HTTP/1.1" 404 2368
+2026-01-13 18:44:07,287 [WARNING] log 25448 18376: Not Found: /site_telefonie/log/ultimele=3
+2026-01-13 18:44:07,288 [WARNING] basehttp 25448 18376: "GET /site_telefonie/log/ultimele=3 HTTP/1.1" 404 10154
+2026-01-13 19:37:22,940 [WARNING] basehttp 13532 24600: "GET /static/images/poza2.png HTTP/1.1" 404 1862
+2026-01-13 19:47:52,176 [WARNING] log 29688 20128: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-13 19:47:52,177 [WARNING] basehttp 29688 20128: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-13 19:47:52,181 [WARNING] log 29688 20128: Not Found: /media/servicii/internet-banner.png
+2026-01-13 19:47:52,182 [WARNING] basehttp 29688 20128: "GET /media/servicii/internet-banner.png HTTP/1.1" 404 2437
+2026-01-13 19:47:52,186 [WARNING] log 29688 20128: Not Found: /media/servicii/collection-of-ringing-phones-vector.jpg
+2026-01-13 19:47:52,187 [WARNING] basehttp 29688 20128: "GET /media/servicii/collection-of-ringing-phones-vector.jpg HTTP/1.1" 404 2497
+2026-01-13 19:47:52,193 [WARNING] log 29688 20128: Not Found: /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif
+2026-01-13 19:47:52,194 [WARNING] basehttp 29688 20128: "GET /media/servicii/microsite-buying-guide-2025-hub-02-feature-cta-d-4.avif HTTP/1.1" 404 2545
+2026-01-13 19:47:52,200 [WARNING] log 29688 20128: Not Found: /media/servicii/gigabit-router.avif
+2026-01-13 19:47:52,200 [WARNING] basehttp 29688 20128: "GET /media/servicii/gigabit-router.avif HTTP/1.1" 404 2437
+2026-01-13 19:47:54,564 [WARNING] log 29688 20128: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-13 19:47:54,565 [WARNING] basehttp 29688 20128: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-13 19:51:48,875 [WARNING] log 14892 29580: Not Found: /media/telefoane/b96848b7acd10dafde32203d12f6fea7.png
+2026-01-13 19:51:48,876 [WARNING] log 14892 25248: Not Found: /media/telefoane/xiaomi_14.jpg
+2026-01-13 19:51:48,876 [WARNING] basehttp 14892 29580: "GET /media/telefoane/b96848b7acd10dafde32203d12f6fea7.png HTTP/1.1" 404 2491
+2026-01-13 19:51:48,876 [WARNING] basehttp 14892 25248: "GET /media/telefoane/xiaomi_14.jpg HTTP/1.1" 404 2422
+2026-01-13 19:51:48,885 [WARNING] log 14892 29580: Not Found: /media/telefoane/maxresdefault.jpg
+2026-01-13 19:51:48,886 [WARNING] log 14892 25248: Not Found: /media/telefoane/mVRNO3WK-Samsung-Galaxy-S24-1200x799.jpg
+2026-01-13 19:51:48,887 [WARNING] basehttp 14892 25248: "GET /media/telefoane/mVRNO3WK-Samsung-Galaxy-S24-1200x799.jpg HTTP/1.1" 404 2503
+2026-01-13 19:51:48,887 [WARNING] basehttp 14892 29580: "GET /media/telefoane/maxresdefault.jpg HTTP/1.1" 404 2434
+2026-01-13 19:51:48,892 [WARNING] log 14892 29580: Not Found: /media/telefoane/iphone_15_pro.png
+2026-01-13 19:51:48,892 [WARNING] basehttp 14892 29580: "GET /media/telefoane/iphone_15_pro.png HTTP/1.1" 404 2434
+2026-01-13 19:59:37,407 [ERROR] log 6908 7916: Internal Server Error: /site_telefonie/categorii/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+psycopg2.errors.UndefinedColumn: column site_telefonie_categoriepachet.culoare does not exist
+LINE 1: ...minima", "site_telefonie_categoriepachet"."icon", "site_tele...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 528, in lista_categorii
+    return render(request, 'site_telefonie/lista_categorii.html', {'categorii': categorii})
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 1016, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\base.py", line 977, in render_annotated
+    return self.render(context)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\defaulttags.py", line 199, in render
+    len_values = len(values)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 366, in __len__
+    self._fetch_all()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 1949, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+        chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size
+    )
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        sql, params, many=False, executor=self._execute
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: column site_telefonie_categoriepachet.culoare does not exist
+LINE 1: ...minima", "site_telefonie_categoriepachet"."icon", "site_tele...
+                                                             ^
+
+2026-01-13 19:59:37,411 [ERROR] basehttp 6908 7916: "GET /site_telefonie/categorii/ HTTP/1.1" 500 188091
+2026-01-13 20:00:02,807 [WARNING] log 15616 25144: Not Found: /favicon.ico
+2026-01-13 20:00:02,808 [WARNING] basehttp 15616 25144: "GET /favicon.ico HTTP/1.1" 404 2368
+2026-01-13 20:04:28,690 [WARNING] log 15320 16908: Not Found: /media/servicii/internet-banner.png
+2026-01-13 20:04:28,691 [WARNING] basehttp 15320 16908: "GET /media/servicii/internet-banner.png HTTP/1.1" 404 2437
+2026-01-13 21:13:46,642 [WARNING] log 25428 26676: Not Found: /favicon.ico
+2026-01-13 21:13:46,642 [WARNING] basehttp 25428 26676: "GET /favicon.ico HTTP/1.1" 404 2368
+2026-01-13 21:31:19,290 [WARNING] log 25428 22220: Not Found: /site_telefonie/produse/sortare=a
+2026-01-13 21:31:19,291 [WARNING] basehttp 25428 22220: "GET /site_telefonie/produse/sortare=a HTTP/1.1" 404 10163
+2026-01-13 21:31:37,800 [WARNING] log 25428 22220: Not Found: /site_telefonie/produse/sort=a
+2026-01-13 21:31:37,801 [WARNING] basehttp 25428 22220: "GET /site_telefonie/produse/sort=a HTTP/1.1" 404 10154
+2026-01-13 21:50:39,977 [WARNING] log 10040 14272: Not Found: /favicon.ico
+2026-01-13 21:50:39,977 [WARNING] basehttp 10040 14272: "GET /favicon.ico HTTP/1.1" 404 2368
+2026-01-14 11:05:43,024 [WARNING] log 16188 15148: Not Found: /favicon.ico
+2026-01-14 11:05:43,026 [WARNING] basehttp 16188 15148: "GET /favicon.ico HTTP/1.1" 404 2368
+2026-01-14 11:09:54,720 [WARNING] log 12720 13852: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2026-01-14 11:09:54,723 [WARNING] basehttp 12720 13852: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2479
+2026-01-14 11:12:05,354 [WARNING] log 12720 13852: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2026-01-14 11:12:05,355 [WARNING] basehttp 12720 13852: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2479
+2026-01-14 11:15:07,744 [WARNING] log 12720 13852: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+2026-01-14 11:15:07,745 [WARNING] basehttp 12720 13852: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 2479
+2026-01-14 11:17:23,346 [WARNING] log 9856 14260: Forbidden: /site_telefonie/categorii/Family/
+2026-01-14 11:17:23,347 [WARNING] basehttp 9856 14260: "GET /site_telefonie/categorii/Family/?nume_pachet=&categorie=3&pret_min=&pret_max=&items_per_page=5 HTTP/1.1" 403 51
+2026-01-14 11:17:36,264 [WARNING] log 9856 14260: Forbidden: /site_telefonie/categorii/Family/
+2026-01-14 11:17:36,265 [WARNING] basehttp 9856 14260: "GET /site_telefonie/categorii/Family/?nume_pachet=&categorie=3&pret_min=&pret_max=&items_per_page=5 HTTP/1.1" 403 51
+2026-01-14 11:23:39,228 [ERROR] basehttp 17828 26152: "GET /site_telefonie/categorii/Student/ HTTP/1.1" 500 72391
+2026-01-14 11:50:38,745 [ERROR] log 10572 14864: Internal Server Error: /site_telefonie/contact/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 536, in contact
+    if 'submit' in request.POST and form.is_valid():
+                                    ~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 206, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 201, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 337, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 345, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\fields.py", line 273, in _clean_bound_field
+    return self.clean(value)
+           ~~~~~~~~~~^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\fields.py", line 210, in clean
+    self.run_validators(value)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\fields.py", line 195, in run_validators
+    v(value)
+    ~^^^^^^^
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\forms.py", line 231, in clean_tip_mesaj
+    tip = self.cleaned_data.get('tip_mesaj')
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'cleaned_data'
+2026-01-14 11:50:38,749 [ERROR] basehttp 10572 14864: "POST /site_telefonie/contact/ HTTP/1.1" 500 105540
+2026-01-14 11:52:34,689 [ERROR] log 13400 21376: Internal Server Error: /site_telefonie/contact/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 536, in contact
+    if 'submit' in request.POST and form.is_valid():
+                                    ~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 206, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 201, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 337, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 345, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\fields.py", line 273, in _clean_bound_field
+    return self.clean(value)
+           ~~~~~~~~~~^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\fields.py", line 210, in clean
+    self.run_validators(value)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\fields.py", line 195, in run_validators
+    v(value)
+    ~^^^^^^^
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\forms.py", line 231, in clean_tip_mesaj
+    tip = self.cleaned_data.get('tip_mesaj')
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'cleaned_data'
+2026-01-14 11:52:34,693 [ERROR] basehttp 13400 21376: "POST /site_telefonie/contact/ HTTP/1.1" 500 105542
+2026-01-14 11:54:25,092 [ERROR] log 5212 8596: Internal Server Error: /site_telefonie/contact/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 536, in contact
+    if 'submit' in request.POST and form.is_valid():
+                                    ~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 206, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 201, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 337, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 345, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\fields.py", line 273, in _clean_bound_field
+    return self.clean(value)
+           ~~~~~~~~~~^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\fields.py", line 210, in clean
+    self.run_validators(value)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\fields.py", line 195, in run_validators
+    v(value)
+    ~^^^^^^^
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\forms.py", line 231, in clean_tip_mesaj
+    tip = self.cleaned_data.get('tip_mesaj')
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'cleaned_data'
+2026-01-14 11:54:25,096 [ERROR] basehttp 5212 8596: "POST /site_telefonie/contact/ HTTP/1.1" 500 105542
+2026-01-14 11:54:31,559 [ERROR] log 5212 8596: Internal Server Error: /site_telefonie/contact/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 536, in contact
+    if 'submit' in request.POST and form.is_valid():
+                                    ~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 206, in is_valid
+    return self.is_bound and not self.errors
+                                 ^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 201, in errors
+    self.full_clean()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 337, in full_clean
+    self._clean_fields()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\forms.py", line 345, in _clean_fields
+    self.cleaned_data[name] = field._clean_bound_field(bf)
+                              ~~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\fields.py", line 273, in _clean_bound_field
+    return self.clean(value)
+           ~~~~~~~~~~^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\fields.py", line 210, in clean
+    self.run_validators(value)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\forms\fields.py", line 195, in run_validators
+    v(value)
+    ~^^^^^^^
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\forms.py", line 231, in clean_tip_mesaj
+    tip = self.cleaned_data.get('tip_mesaj')
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'cleaned_data'
+2026-01-14 11:54:31,564 [ERROR] basehttp 5212 8596: "POST /site_telefonie/contact/ HTTP/1.1" 500 105549
+2026-01-14 12:09:08,557 [ERROR] log 10532 19116: Internal Server Error: /site_telefonie/contact/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 553, in contact
+    mesaj = re.sub(r'\s+', ' ', mesaj.strip())
+                                ^^^^^
+UnboundLocalError: cannot access local variable 'mesaj' where it is not associated with a value
+2026-01-14 12:09:08,559 [ERROR] basehttp 10532 19116: "POST /site_telefonie/contact/ HTTP/1.1" 500 75545
+2026-01-14 13:19:38,123 [WARNING] log 27696 17828: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-14 13:19:38,125 [WARNING] basehttp 27696 17828: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-14 13:22:34,569 [WARNING] log 27696 17828: Not Found: /media/servicii/istockphoto-1221240798-612x612.jpg
+2026-01-14 13:22:34,570 [WARNING] basehttp 27696 17828: "GET /media/servicii/istockphoto-1221240798-612x612.jpg HTTP/1.1" 404 2482
+2026-01-14 13:32:05,681 [WARNING] log 11296 13040: Forbidden (CSRF token from POST incorrect.): /site_telefonie/login/
+2026-01-14 13:32:05,682 [WARNING] basehttp 11296 13040: "POST /site_telefonie/login/ HTTP/1.1" 403 2503
+2026-01-14 13:53:46,608 [ERROR] log 7596 28612: Internal Server Error: /site_telefonie/creare-promotie/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 981, in creare_promotie
+    form = CrearePromotieForm()
+           ^^^^^^^^^^^^^^^^^^
+NameError: name 'CrearePromotieForm' is not defined. Did you mean: 'creare_promotie'?
+2026-01-14 13:53:46,613 [ERROR] basehttp 7596 28612: "GET /site_telefonie/creare-promotie/ HTTP/1.1" 500 70651
+2026-01-14 13:54:02,648 [ERROR] log 7596 28612: Internal Server Error: /site_telefonie/creare-promotie/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 981, in creare_promotie
+    form = CrearePromotieForm()
+           ^^^^^^^^^^^^^^^^^^
+NameError: name 'CrearePromotieForm' is not defined. Did you mean: 'creare_promotie'?
+2026-01-14 13:54:02,652 [ERROR] basehttp 7596 28612: "GET /site_telefonie/creare-promotie/ HTTP/1.1" 500 70651
+2026-01-14 13:54:56,770 [ERROR] log 29316 13864: Internal Server Error: /site_telefonie/creare-promotie/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 981, in creare_promotie
+    form = CrearePromotieForm()
+           ^^^^^^^^^^^^^^^^^^
+NameError: name 'CrearePromotieForm' is not defined. Did you mean: 'creare_promotie'?
+2026-01-14 13:54:56,777 [ERROR] basehttp 29316 13864: "GET /site_telefonie/creare-promotie/ HTTP/1.1" 500 70651
+2026-01-14 14:08:06,964 [ERROR] log 19688 28052: Internal Server Error: /site_telefonie/detalii-pachet/1/
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 886, in detalii_pachet
+    vizualizari_user = Vizualizare.objects.filter(user=request.user).order_by('data_vizualizare')
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 1722, in order_by
+    obj.query.add_ordering(*field_names)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\query.py", line 2305, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\query.py", line 1806, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'data_vizualizare' into field. Choices are: data, id, pachet, pachet_id, user, user_id
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 933, in detalii_pachet
+    return render(request, 'site_telefonie/eroare_generica.html')
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: site_telefonie/eroare_generica.html
+2026-01-14 14:08:06,969 [ERROR] basehttp 19688 28052: "GET /site_telefonie/detalii-pachet/1/ HTTP/1.1" 500 119873
+2026-01-14 14:08:13,429 [ERROR] log 19688 28052: Internal Server Error: /site_telefonie/detalii-pachet/8/
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 886, in detalii_pachet
+    vizualizari_user = Vizualizare.objects.filter(user=request.user).order_by('data_vizualizare')
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 1722, in order_by
+    obj.query.add_ordering(*field_names)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\query.py", line 2305, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\query.py", line 1806, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'data_vizualizare' into field. Choices are: data, id, pachet, pachet_id, user, user_id
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 933, in detalii_pachet
+    return render(request, 'site_telefonie/eroare_generica.html')
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: site_telefonie/eroare_generica.html
+2026-01-14 14:08:13,434 [ERROR] basehttp 19688 28052: "GET /site_telefonie/detalii-pachet/8/ HTTP/1.1" 500 119867
+2026-01-14 14:08:16,422 [ERROR] log 19688 28052: Internal Server Error: /site_telefonie/detalii-pachet/3/
+Traceback (most recent call last):
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 886, in detalii_pachet
+    vizualizari_user = Vizualizare.objects.filter(user=request.user).order_by('data_vizualizare')
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 1722, in order_by
+    obj.query.add_ordering(*field_names)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\query.py", line 2305, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\query.py", line 1806, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'data_vizualizare' into field. Choices are: data, id, pachet, pachet_id, user, user_id
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 933, in detalii_pachet
+    return render(request, 'site_telefonie/eroare_generica.html')
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: site_telefonie/eroare_generica.html
+2026-01-14 14:08:16,428 [ERROR] basehttp 19688 28052: "GET /site_telefonie/detalii-pachet/3/ HTTP/1.1" 500 119867
+2026-01-14 14:09:28,122 [WARNING] log 19688 28052: Not Found: /
+2026-01-14 14:09:28,123 [WARNING] basehttp 19688 28052: "GET / HTTP/1.1" 404 2486
+2026-01-14 14:12:43,264 [ERROR] log 1988 29988: Internal Server Error: /site_telefonie/detalii-pachet/3/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 886, in detalii_pachet
+    vizualizari_user = Vizualizare.objects.filter(user=request.user).order_by('data_vizualizare')
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\query.py", line 1722, in order_by
+    obj.query.add_ordering(*field_names)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\query.py", line 2305, in add_ordering
+    self.names_to_path(item.split(LOOKUP_SEP), self.model._meta)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\db\models\sql\query.py", line 1806, in names_to_path
+    raise FieldError(
+    ...<2 lines>...
+    )
+django.core.exceptions.FieldError: Cannot resolve keyword 'data_vizualizare' into field. Choices are: data, id, pachet, pachet_id, user, user_id
+2026-01-14 14:12:43,268 [ERROR] basehttp 1988 29988: "GET /site_telefonie/detalii-pachet/3/ HTTP/1.1" 500 86725
+2026-01-14 14:18:43,000 [ERROR] log 23304 22928: Internal Server Error: /site_telefonie/creare-promotie/
+Traceback (most recent call last):
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Admin\Documents\FMI\an2\DJANGO\proiect1\site_telefonie\views.py", line 937, in creare_promotie
+    return render(request, 'site_telefonie/promotie_succes.html')
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: site_telefonie/promotie_succes.html
+2026-01-14 14:18:43,004 [ERROR] basehttp 23304 22928: "POST /site_telefonie/creare-promotie/ HTTP/1.1" 500 91387
+2026-01-15 10:56:27,659 [WARNING] log 7256 6212: Forbidden (CSRF token from POST incorrect.): /site_telefonie/creare-promotie/
+2026-01-15 10:56:27,660 [WARNING] basehttp 7256 6212: "POST /site_telefonie/creare-promotie/ HTTP/1.1" 403 2503
+2026-01-15 11:56:23,328 [WARNING] log 38244 39788: Forbidden: /site_telefonie/log/
+2026-01-15 11:56:23,329 [WARNING] basehttp 38244 39788: "GET /site_telefonie/log/ HTTP/1.1" 403 3341
