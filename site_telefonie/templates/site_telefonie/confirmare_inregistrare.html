@@ -1,0 +1,28 @@
+{% extends 'site_telefonie/baza.html' %}
+
+{% block content %}
+<div class="container" style="background: white; padding: 40px; margin-top: 50px; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); text-align: center;">
+    
+    <h2 style="color: #28a745; margin-bottom: 20px;">
+        <i class="fa-solid fa-envelope-circle-check"></i> Cont creat cu succes!
+    </h2>
+
+    <p style="font-size: 1.1em; color: #333;">
+        Mai ai un singur pas. Un e-mail de confirmare a fost trimis către adresa ta.
+    </p>
+    
+    <div style="background-color: #e9ecef; padding: 15px; border-radius: 5px; margin: 20px 0;">
+        <strong>Te rugăm să verifici e-mailul și să dai click pe link-ul de activare.</strong>
+    </div>
+
+    <p style="color: gray; font-size: 0.9em;">
+        Nu te poți loga până nu confirmi adresa de e-mail.<br>
+        (Dacă folosești consola pentru testare, verifică terminalul din VS Code).
+    </p>
+
+    <a href="{% url 'index' %}" style="display: inline-block; margin-top: 20px; color: #577cbc; font-weight: bold; text-decoration: none;">
+        &larr; Înapoi la Prima Pagină
+    </a>
+
+</div>
+{% endblock %}

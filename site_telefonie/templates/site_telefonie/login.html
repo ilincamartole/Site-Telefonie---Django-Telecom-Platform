@@ -1,0 +1,34 @@
+{% extends "site_telefonie/baza.html" %}
+{% block title %}Login{% endblock %}
+{% block content %}
+<h1>Login</h1>
+
+{% if messages %}
+  {% for message in messages %}
+    <p style="color: red;"><strong>{{ message }}</strong></p>
+  {% endfor %}
+{% endif %}
+<form method="post">
+    {% csrf_token %}
+    {{ form.non_field_errors }}
+
+    <div>
+        {{ form.username.label_tag }} {{ form.username }}
+        {{ form.username.errors }}
+    </div>
+    <div>
+        {{ form.password.label_tag }} {{ form.password }}
+        {{ form.password.errors }}
+    </div>
+    <div>
+        {{ form.ramane_logat.label_tag }} {{ form.ramane_logat }}
+    </div>
+    <button type="submit">Login</button>
+</form>
+{% if eroare %}
+  <p style="color: red;"><strong>{{ eroare }}</strong></p>
+{% endif %}
+{% if mesaj_erori %}
+    <p style="color: red;"><strong>{{ mesaj_erori }}</strong></p>
+{% endif %}
+{% endblock %}

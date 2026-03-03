@@ -1,0 +1,110 @@
+CONTAINER
+.product-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+/* TITLURI */
+.product-page h1 {
+    font-size: 2rem;
+    color: #203a43;
+    margin-bottom: 10px;
+}
+
+.product-page h2 {
+    font-size: 1.5rem;
+    color: #0f2027;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* LEAD TEXT (pret) */
+.product-page .lead {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* HR */
+.product-page hr {
+    /* border: none; */
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+/* IMAGINI */
+.product-page img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+/* DETALII PRODUSE */
+.product-page .descriere {
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-left: 3px solid #00d2ff;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+/* LISTE / PARAGRAFE */
+.product-page p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.product-page p strong {
+    color: #203a43;
+}
+
+/* STOC */
+.product-page .in-stoc {
+    color: green;
+    font-weight: 600;
+}
+
+.product-page .epuizat {
+    color: red;
+    font-weight: 600;
+}
+
+/* LINK BACK */
+.product-page a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #00d2ff;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.product-page a:hover {
+    color: #005f99;
+    text-decoration: underline;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .product-page {
+        padding: 15px;
+    }
+
+    .product-page h1 {
+        font-size: 1.6rem;
+    }
+
+    .product-page h2 {
+        font-size: 1.3rem;
+    }
+}

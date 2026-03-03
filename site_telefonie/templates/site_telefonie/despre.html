@@ -1,0 +1,19 @@
+{% extends 'site_telefonie/baza.html' %}
+
+{%load static%}
+{% block title %}Despre noi{% endblock %}
+
+{% block content %}
+<h1>Despre compania noastră</h1>
+<img src="{% static 'images/poza2.jpg' %}" alt="Logo" width="200">
+
+<section id="echipa">
+    <h2>Echipa noastră</h2>
+    <p>Suntem o echipă de pasionați de tehnologie și telecomunicații.</p>
+</section>
+
+<section id="istoric">
+    <h2>Istoric</h2>
+    <p>Compania a fost fondată în 2020, cu scopul de a oferi servicii accesibile.</p>
+</section>
+{% endblock %}

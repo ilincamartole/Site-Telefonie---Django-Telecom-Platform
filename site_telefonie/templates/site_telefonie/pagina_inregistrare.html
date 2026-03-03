@@ -1,0 +1,37 @@
+{% extends 'site_telefonie/baza.html' %}
+
+{% block content %}
+<section class="container" style="max-width: 600px; margin: 40px auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 0 15px rgba(0,0,0,0.1);">
+    
+    <h2 style="color: #304862; border-bottom: 2px solid #577cbc; padding-bottom: 10px;">Înregistrare Cont Nou</h2>
+    
+    <form method="post">
+        {% csrf_token %}
+        
+        <p style="font-style: italic; font-size: 0.9em; margin-bottom: 20px;">Câmpurile marcate cu * sunt obligatorii.</p>
+        
+        {% for field in form %}
+            <div style="margin-bottom: 15px;">
+                <label for="{{ field.id_for_label }}" style="display: block; font-weight: bold; margin-bottom: 5px; color: #333;">
+                    {{ field.label }}:
+                    {% if field.field.required %}
+                        <span style="color: red;">*</span>
+                    {% endif %}
+                </label>
+                
+                {{ field }}
+                
+                {% if field.errors %}
+                    <div style="color: red; font-size: 0.85em; margin-top: 5px;">
+                        {{ field.errors }}
+                    </div>
+                {% endif %}
+                
+                </div>
+        {% endfor %}
+        
+        <button type="submit" class="btn-special" style="margin-top: 20px; cursor: pointer;">Înregistrează-te</button>
+    </form>
+
+</section>
+{% endblock %}

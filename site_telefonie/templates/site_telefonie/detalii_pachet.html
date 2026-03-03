@@ -1,0 +1,61 @@
+{% extends 'site_telefonie/baza.html' %}
+
+{% block content %}
+<div class="container" style="padding: 30px; max-width: 900px; margin: auto;">
+
+    <a href="javascript:history.back()" style="text-decoration: none; color: gray;">&larr; Înapoi la listă</a>
+    
+    <div style="margin-top: 20px; border-bottom: 2px solid #304862; padding-bottom: 10px;">
+        <h1 style="color: #304862;">
+            {% if pachet.apartine.icon %}
+                <i class="{{ pachet.apartine.icon }}"></i>
+            {% endif %}
+            {{ pachet.nume_pachet }}
+        </h1>
+        <a href="{% url 'pachete_categorie' nume_categorie=pachet.apartine.nume_categorie %}" 
+           style="display: inline-block; background-color: {{ pachet.apartine.culoare|default:'#1e3a8a' }}; color: white; padding: 8px 15px; border-radius: 5px; font-size: 0.9em; text-decoration: none;">
+            <i class="{{ pachet.apartine.icon }}"></i> {{ pachet.apartine.nume_categorie }}
+        </a>
+    </div>
+
+
+    <div style="margin-top: 20px; font-size: 1.1em; line-height: 1.6;">
+        <p>{{ pachet.descriere_pachet }}</p>
+        
+        {% if pachet.cod_promo %}
+            <p style="color: green; font-weight: bold;">
+                Cod Promoțional Activ: <span style="border: 1px dashed green; padding: 2px 5px;">{{ pachet.cod_promo }}</span>
+            </p>
+        {% endif %}
+    </div>
+
+    <div style="margin-top: 40px;">
+        <h3>Ce conține acest pachet?</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 15px;">
+            
+            {% for produs in produse_incluse %}
+            <div style="border: 1px solid #ddd; padding: 15px; width: 250px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                <h4 style="margin-top: 0;">
+                    <a href="{% url 'detalii_produs' pk=produs.id_produs %}" style="text-decoration: none; color: #304862;">
+                        {{ produs.nume }}
+                    </a>
+                </h4>
+                
+                <p style="color: gray; font-size: 0.9em;">{{ produs.descriere|truncatechars:50 }}</p>
+                <p><strong>Preț produs:</strong> {{ produs.pret }} RON</p>
+            </div>
+            {% empty %}
+                <p>Acest pachet nu are produse definite momentan.</p>
+            {% endfor %}
+
+        </div>
+    </div>
+
+    <div style="margin-top: 50px; text-align: center;">
+        <button class="btn-special" style="padding: 15px 40px; font-size: 1.2em; background-color: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer;">
+            Comandă Pachetul Acum
+        </button>
+    </div>
+
+</div>
+{% endblock %}

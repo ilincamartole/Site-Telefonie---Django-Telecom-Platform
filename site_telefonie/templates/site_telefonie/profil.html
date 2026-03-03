@@ -1,0 +1,90 @@
+{% extends 'site_telefonie/baza.html' %}
+
+{% block content %}
+{%if messages%}
+    {% for message in messages %}
+        <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+            {{ message }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    {% endfor %}
+{% endif %}
+<div class="container" style="background: white; padding: 30px; margin-top: 30px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+    
+    <h2 style="color: #304862; border-bottom: 2px solid #577cbc; padding-bottom: 10px;">Profilul Meu</h2>
+
+    <div style="margin-top: 20px;">
+        <p style="font-size: 1.1em;">Salut, <strong>{{ user.username }}</strong>! Iată datele tale:</p>
+<table border="1" cellpadding="10" cellspacing="0" style="width: 100%; border-collapse: collapse; margin-top: 15px; margin-bottom: 25px;">
+    
+    <tr style="background-color: #304862; color: white;">
+        <th>Câmp</th>
+        <th>Informație</th>
+    </tr>
+
+    <tr>
+        <td><strong>Username</strong></td>
+        <td>{{ user.username }}</td>
+    </tr>
+    <tr>
+        <td><strong>Nume</strong></td>
+        <td>{{ user.last_name }}</td>
+    </tr>
+    <tr>
+        <td><strong>Prenume</strong></td>
+        <td>{{ user.first_name }}</td>
+    </tr>
+    <tr>
+        <td><strong>Email</strong></td>
+        <td>{{ user.email }}</td>
+    </tr>
+
+    <tr>
+        <td><strong>Telefon</strong></td>
+        <td>{{ user.telefon|default:"-" }}</td>
+    </tr>
+    <tr>
+        <td><strong>Adresă</strong></td>
+        <td>{{ user.adresa|default:"-" }}</td>
+    </tr>
+    <tr>
+        <td><strong>Județ</strong></td>
+        <td>{{ user.judet|default:"-" }}</td>
+    </tr>
+    <tr>
+        <td><strong>CNP</strong></td>
+        <td>{{ user.cnp|default:"-" }}</td>
+    </tr>
+    <tr>
+        <td><strong>Data Nașterii</strong></td>
+        <td>{{ user.data_nasterii|default:"-" }}</td>
+    </tr>
+    <tr>
+        <td><strong>Card Implicit</strong></td>
+        <td>{{ user.nr_card_implicit|default:"-" }}</td>
+    </tr>
+
+    <tr style="background-color: #f9f9f9;">
+        <td><strong>Data înscrierii</strong></td>
+        <td>{{ user.date_joined|date:"d F Y" }}</td>
+    </tr>
+</table>
+    </div>
+
+   <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+        
+        <a href="{% url 'schimbare_parola' %}" style="padding: 10px 20px; background-color: #ffc107; color: #333; text-decoration: none; border-radius: 5px; font-weight: bold;">
+            <i class="fa-solid fa-key"></i> Schimbă Parola
+        </a> 
+
+        
+
+        <a href="{% url 'logout' %}" style="padding: 10px 20px; background-color: #dc3545; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
+            <i class="fa-solid fa-right-from-bracket"></i> Deconectare
+        </a> 
+
+    </div>
+
+</div>
+
+{% endblock %}

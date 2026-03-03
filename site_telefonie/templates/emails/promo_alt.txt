@@ -1,0 +1,13 @@
+Subiect: {{ subiect }}
+
+Salutare!
+
+Avem o ofertă specială pentru categoria: {{ nume_categorie }}.
+
+Discount: {{ discount }}%
+Promoția expiră la: {{ data_expirare }}
+
+Mesaj personalizat: {{ mesaj }}
+
+Nu rata această oportunitate!
+Echipa Site Telefonie

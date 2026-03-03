@@ -1,0 +1,21 @@
+{% extends 'site_telefonie/baza.html' %}
+
+{% block content %}
+<div class="container" style="background: white; padding: 40px; margin-top: 50px; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); text-align: center;">
+
+    <h2 style="color: #304862; border-bottom: 2px solid #577cbc; padding-bottom: 10px; margin-bottom: 20px;">
+        Status Confirmare
+    </h2>
+
+    <p style="font-size: 1.2em; padding: 20px; background-color: #f8f9fa; border-radius: 5px; border-left: 5px solid #577cbc;">
+        <strong>{{ mesaj }}</strong>
+    </p>
+
+    <div style="margin-top: 30px;">
+        <a href="{% url 'login' %}" class="btn-special" style="text-decoration: none; padding: 12px 30px; border-radius: 5px;">
+            Mergi la Pagina de Login
+        </a>
+    </div>
+
+</div>
+{% endblock %}

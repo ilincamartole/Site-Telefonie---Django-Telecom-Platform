@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; color: #333; }
+        .container { padding: 20px; border: 1px solid #ddd; background-color: #f9f9f9; }
+        .logo { text-align: center; margin-bottom: 20px; }
+        .btn { background-color: #28a745; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/3059/3059502.png" alt="Logo Telefonie" width="100">
+        </div>
+        
+        <h2>Salut, {{ prenume }} {{ nume }}!</h2>
+        <p>Username-ul tău este: <strong>{{ username }}</strong></p>
+        
+        <p>Îți mulțumim că te-ai înregistrat pe site-ul nostru.</p>
+        <p>Te rugăm să confirmi adresa de e-mail dând click pe butonul de mai jos:</p>
+        
+        <p style="text-align: center; margin-top: 30px;">
+            <a href="{{ link_confirmare }}" class="btn">Confirmă E-mailul</a>
+        </p>
+        
+        <p><small>Dacă nu poți da click, copiază acest link în browser: {{ link_confirmare }}</small></p>
+    </div>
+</body>
+</html>

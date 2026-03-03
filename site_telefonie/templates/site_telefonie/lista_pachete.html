@@ -1,0 +1,179 @@
+{% extends 'site_telefonie/baza.html' %}
+{% block content %}
+<h1>Pachete din categoria: {{ categorie.nume_categorie }}</h1>
+{% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+            <li class="{{ message.tags }}">{{ message }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
+<div class="container" style="max-width: 800px; margin: 0 auto; margin-bottom:20px; padding: 20px; background-color: #f9f9f9; border-radius: 8px; border: 1px solid #ddd;">
+    <form method="get">
+        {% if form.non_field_errors %}
+            <div style="background-color: #f8d7da; border: 1px solid #f5c6cb; color: #721c24; padding: 12px; border-radius: 5px; margin-bottom: 15px;">
+                <strong>Erori de validare:</strong>
+                <ul style="margin: 5px 0 0 20px;">
+                    {% for error in form.non_field_errors %}
+                        <li>{{ error }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px;">
+            <div>
+                {{ form.nume_pachet.label_tag }}
+                {{ form.nume_pachet }}
+                {% if form.nume_pachet.errors %}
+                    <div style="color: #dc3545; font-size: 0.9em; margin-top: 5px;">
+                        {% for error in form.nume_pachet.errors %}
+                            <p style="margin: 0;">❌ {{ error }}</p>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+            <div>
+                {% if categorie_selectata %}
+                    <input type="text" name="categorie" value="{{ categorie_selectata.nume_categorie }}" readonly>
+                    <input type="hidden" name="categorie" value="{{ categorie_selectata.id_categorie }}">
+                {% else %}
+                    {{ form.categorie.label_tag }}
+                    {{ form.categorie }}
+                    {% if form.categorie.errors %}
+                        <div style="color: #dc3545; font-size: 0.9em; margin-top: 5px;">
+                            {% for error in form.categorie.errors %}
+                                <p style="margin: 0;"> {{ error }}</p>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                {% endif %}
+            </div>
+            <div>
+                {{ form.pret_min.label_tag }}
+                {{ form.pret_min }}
+                {% if form.pret_min.errors %}
+                    <div style="color: #dc3545; font-size: 0.9em; margin-top: 5px;">
+                        {% for error in form.pret_min.errors %}
+                            <p style="margin: 0;">❌ {{ error }}</p>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+            <div>
+                {{ form.pret_max.label_tag }}
+                {{ form.pret_max }}
+                {% if form.pret_max.errors %}
+                    <div style="color: #dc3545; font-size: 0.9em; margin-top: 5px;">
+                        {% for error in form.pret_max.errors %}
+                            <p style="margin: 0;">❌ {{ error }}</p>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+            <div style="grid-column: 1 / -1;">
+                {{ form.items_per_page.label_tag }}
+                {{ form.items_per_page }}
+                {% if form.items_per_page.errors %}
+                    <div style="color: #dc3545; font-size: 0.9em; margin-top: 5px;">
+                        {% for error in form.items_per_page.errors %}
+                            <p style="margin: 0;">❌ {{ error }}</p>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+        <div style="display: flex; gap: 10px; justify-content: center;">
+            <button type="submit" style="
+                background-color: #28a745; 
+                color: white; 
+                padding: 10px 25px; 
+                border: none; 
+                border-radius: 5px; 
+                cursor: pointer; 
+                font-size: 1em;
+                font-weight: bold;
+                transition: background-color 0.3s;">
+                ✓ Filtrează
+            </button>
+            <button type="button"
+                onclick="
+                    const hasFilters = {{ request.GET.urlencode|length }} > 0;
+                    if(hasFilters) {
+                        if(confirm('Veți pierde filtrele curente. Sigur doriți resetarea?')) {
+                            window.location.href='{{ request.path }}';
+                        }
+                    } else {
+                        window.location.href='{{ request.path }}';
+                    }
+                "
+                style="
+                    background-color: #dc3545; 
+                    color: white; 
+                    padding: 10px 25px; 
+                    border: none; 
+                    border-radius: 5px; 
+                    cursor: pointer; 
+                    font-size: 1em;
+                    font-weight: bold;
+                    transition: background-color 0.3s;">
+                ✕ Resetează filtrele
+            </button>
+        </div>
+    </form>
+</div>
+
+
+{% if mesaj_paginare %}
+    <p style="color:orange;"><strong>{{ mesaj_paginare }}</strong></p>
+{% endif %}
+
+
+<p>
+    Sortare pachete: 
+    {% comment %} Reconstruim query string fara 'sort' {% endcomment %}
+    {% for key, value in request.GET.items %}
+        {% if key != 'sort' %}
+            {% if not forloop.first %}&{% endif %}
+            {{ key }}={{ value }}
+        {% endif %}
+    {% endfor %}
+    {% comment %} Linkuri de sortare {% endcomment %}
+    <a href="?{% for key, value in request.GET.items %}{% if key != 'sort' %}{{ key }}={{ value }}&{% endif %}{% endfor %}sort=a">Ascendent</a> |
+    <a href="?{% for key, value in request.GET.items %}{% if key != 'sort' %}{{ key }}={{ value }}&{% endif %}{% endfor %}sort=d">Descendent</a>
+</p>
+
+{% for pachet in page_obj %}
+    <div class="card" style="border:1px solid #ccc; padding:10px; margin-bottom:15px; border-radius:8px;">
+        <h2><i class="{{ pachet.apartine.icon }}"></i>
+            <a href="{% url 'detalii_pachet' pk=pachet.id_pachet %}">{{ pachet.nume_pachet }}</a></h2>
+        {% if pachet.descriere_pachet %}
+            <p>{{ pachet.descriere_pachet|truncatechars:150 }}</p>
+        {% endif %}
+        <p><strong>Produse incluse:</strong>
+            {% for produs in pachet.contine.all %}
+            <a href="{% url 'detalii_produs' pk=produs.id_produs %}">
+                {{ produs.nume }}</a>{% if not forloop.last %}, {% endif %}           
+            {% endfor %}
+        </p>
+    </div>
+{% empty %}
+    <p>Nu există pachete în această categorie.</p>
+{% endfor %}
+
+<!-- Paginare -->
+<div class="pagination" style="text-align:center;">
+        {% if page_obj.has_previous %}
+            <a href="?{% for key, value in request.GET.items %}{% if key != 'page' %}{{ key }}={{ value }}&{% endif %}{% endfor %}page=1">&laquo; Prima</a>
+            <a href="?{% for key, value in request.GET.items %}{% if key != 'page' %}{{ key }}={{ value }}&{% endif %}{% endfor %}page={{ page_obj.previous_page_number }}">Înapoi</a>
+        {% endif %}
+
+        <span>Pagina {{ page_obj.number }} din {{ page_obj.paginator.num_pages }}</span>
+
+        {% if page_obj.has_next %}
+            <a href="?{% for key, value in request.GET.items %}{% if key != 'page' %}{{ key }}={{ value }}&{% endif %}{% endfor %}page={{ page_obj.next_page_number }}">Înainte</a>
+            <a href="?{% for key, value in request.GET.items %}{% if key != 'page' %}{{ key }}={{ value }}&{% endif %}{% endfor %}page={{ page_obj.paginator.num_pages }}">Ultima &raquo;</a>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends 'site_telefonie/baza.html' %}
+
+{% block content %}
+<div class="container" style="text-align: center; padding: 50px; max-width: 600px; margin: auto;">
+    
+    <div style="font-size: 4em; color: #28a745; margin-bottom: 20px;">
+        <i class="fa-solid fa-circle-check"></i> ✓
+    </div>
+
+    <h2 style="color: #304862;">Promoția a fost lansată cu succes!</h2>
+    
+    <p style="font-size: 1.2em; color: #555; margin: 20px 0;">
+        Pachetele au fost actualizate și mailurile au fost trimise către clienții eligibili.
+    </p>
+
+    <div style="background: #f8f9fa; padding: 15px; border-radius: 5px; border-left: 5px solid #28a745; text-align: left; margin-bottom: 30px;">
+        <strong>Notă:</strong> Dacă ești în modul de dezvoltare, verifică <em>terminalul (consola)</em> din VS Code pentru a vedea conținutul mailurilor trimise.
+    </div>
+
+    <a href="{% url 'index' %}" class="btn-special" style="text-decoration: none; padding: 10px 30px;">
+        Înapoi la Prima Pagină
+    </a>
+
+</div>
+{% endblock %}

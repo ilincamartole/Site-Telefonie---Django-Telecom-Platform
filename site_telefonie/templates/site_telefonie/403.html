@@ -1,0 +1,39 @@
+{% extends 'site_telefonie/baza.html' %}
+
+
+{%block title%} Eroare 403 {% endblock title %}
+
+{% block content %}
+    {# Salutul în funcție de user #}
+    {% if user.is_authenticated %}
+        <p>Salut {{ user.username }}</p>
+    {% else %}
+        <p>Salut preastimate anonim</p>
+    {% endif %}
+
+    {# Titlul #}
+    <h1>
+        {% if titlu %}
+            {{ titlu }}
+        {% else %}
+            Eroare 403
+        {% endif %}
+    </h1>
+
+    {# Mesaj personalizat #}
+    <p>{{ mesaj_personalizat }}</p>
+
+    {# Număr accesari 403 #}
+    <p>
+        Ai ajuns pe o pagină 403 de {{ nr_403 }} ori în sesiunea curentă.
+    </p>
+
+    {# Mesaj de atentionare #}
+    {% if nr_403 > N_MAX_403 %}
+        <p style="color: red;">
+            Ai depășit numărul maxim de accesări permise!
+        </p>
+    {% endif %}
+
+{% endblock content %}
+</html />

@@ -1,0 +1,14 @@
+{
+    "nume": "Martole",
+    "prenume": "Ilinca",
+    "cnp": "2050928890123",
+    "email": "ilinca-maria.martole@s.unibuc.ro",
+    "tip_mesaj": "review",
+    "subiect": "WiFi",
+    "minim_zile_asteptare": 4,
+    "mesaj": "toate sunt bune si frumoase. Ilinca Martole",
+    "varsta": "20 ani și 2 luni",
+    "urgent": true,
+    "ip_utilizator": "127.0.0.1",
+    "data_ora_trimitere": "2025-11-20 00:29:20"
+}

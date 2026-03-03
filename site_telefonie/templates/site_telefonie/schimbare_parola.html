@@ -1,0 +1,35 @@
+{% extends 'site_telefonie/baza.html' %}
+
+{% block content %}
+<div class="container" style="background: white; padding: 30px; margin-top: 30px; max-width: 600px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+    
+    <h2 style="color: #304862; border-bottom: 2px solid #577cbc; padding-bottom: 10px;">Schimbare Parolă</h2>
+    <p style="color: gray;">Alege o parolă puternică.</p>
+
+    <form method="post">
+        {% csrf_token %}
+        
+        {% for field in form %}
+            <div style="margin-bottom: 15px;">
+                <label style="font-weight: bold; display: block;">{{ field.label }}:</label>
+                {{ field }}
+                
+                {% if field.help_text %}
+                    <small style="color: #666; display: block; margin-top: 5px; font-size: 0.85em;">
+                        {{ field.help_text|safe }}
+                    </small>
+                {% endif %}
+
+                {% if field.errors %}
+                    <div style="color: red; margin-top: 5px;">{{ field.errors }}</div>
+                {% endif %}
+            </div>
+        {% endfor %}
+
+        <button type="submit" class="btn-special" style="cursor: pointer; margin-top: 10px;">Salvează Noua Parolă</button>
+        
+        <a href="{% url 'profil_utilizator' %}" style="margin-left: 20px; color: #577cbc; font-weight: bold;">Anulează</a>
+    </form>
+
+</div>
+{% endblock %}

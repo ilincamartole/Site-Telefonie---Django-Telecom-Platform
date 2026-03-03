@@ -1,0 +1,99 @@
+{% extends "site_telefonie/baza.html" %}
+{% load static %}
+
+{% block title %}Jurnal accesări{% endblock %}
+
+{% block content %}
+<section class="container">
+    <h2>Jurnal Accesări</h2>
+
+    <div style="border: 1px dashed #333; padding: 10px; margin-bottom: 10px; background-color: #f8f9fa;">
+        <strong>Info Parametri:</strong> S-au primit {{ nr_params }} parametri.
+        {% if nr_params > 0 %}
+            (Nume: {{ nume_params|join:", " }})
+        {% endif %}
+    </div>
+
+    {% if mesaj %}
+        <div style="margin: 10px 0; padding: 10px; border: 1px solid #ccc; background-color: #fff3cd;">
+            {{ mesaj|safe }}
+        </div>
+    {% endif %}
+
+    {% if sectiune_extra %}
+        <div style="margin: 10px 0; padding: 10px; background-color: #e9ecef;">
+            {{ sectiune_extra|safe }}
+        </div>
+    {% endif %}
+
+
+
+    <hr>
+
+    {% if mod_afisare == 'tabel' %}
+        
+        <h3>Tabel accesări</h3>
+        {% if coloane_tabel %}
+            <table border="1" cellpadding="6" cellspacing="0" style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr>
+                        {% for col in coloane_tabel %}
+                            <th style="background-color: #f2f2f2; text-transform: uppercase;">{{ col }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for rand in accesari_tabel %}
+                    <tr>
+                        {% for col in coloane_tabel %}
+                            <td>
+                                {% if col == 'id' %}{{ rand.id }}
+                                {% elif col == 'ip_client' %}{{ rand.ip_client }}
+                                {% elif col == 'url' %}{{ rand.url }}
+                                {% elif col == 'data' %}{{ rand.data }}
+                                {% endif %}
+                            </td>
+                        {% endfor %}
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="{{ coloane_tabel|length }}">Nicio înregistrare găsită.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <p>Ati cerut tabel, dar nu ati specificat coloane (ex: ?tabel=id,url).</p>
+        {% endif %}
+
+    {% else %}
+
+        <h3>Listă accesări</h3>
+        <ul>
+            {% for a in accesari %}
+            <li>
+                [ID: {{ a.id }}]S
+                - {{ a.url }} 
+                (IP: {{ a.ip_client }}) 
+                {% if accesari_param == 'detalii' %}
+                - Data: {{ a.data|date:"d-m-Y H:i:s" }}
+                {% endif %}
+                
+            </li>
+            {% empty %}
+            <li>Nicio înregistrare găsită.</li>
+            {% endfor %}
+        </ul>
+
+    {% endif %}
+
+    {% if pagina_max and pagina_min %}
+        <div style="margin-top: 30px; padding-top: 10px; border-top: 2px solid #333;">
+            <h4>Statistici Pagini</h4>
+            <p><strong>Cea mai accesată pagină:</strong> {{ pagina_max }}</p>
+            <p><strong>Cea mai puțin accesată pagină:</strong> {{ pagina_min }}</p>
+        </div>
+    {% endif %}
+
+</section>
+{% endblock %}

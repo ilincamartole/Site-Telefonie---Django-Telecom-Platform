@@ -1,0 +1,23 @@
+{% extends 'site_telefonie/baza.html' %}
+{%block content %}
+<h1>Adaugă produs</h1>
+
+<form method="get">
+    <label>Alege tipul produsului:</label>
+    <select name="tip">
+        <option value="">--Selectați--</option>
+        <option value="serviciu" {% if tip_produs == 'serviciu' %}selected{% endif %}>Serviciu</option>
+        <option value="telefon" {% if tip_produs == 'telefon' %}selected{% endif %}>Telefon</option>
+    </select>
+    <button type="submit">Alege</button>
+</form>
+
+{% if form %}
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="hidden" name="tip_produs" value="{{ tip_produs }}">
+        {{ form.as_p }}
+        <button type="submit">Salvează produsul</button>
+    </form>
+{% endif %}
+{%endblock%}

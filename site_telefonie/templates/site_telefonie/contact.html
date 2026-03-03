@@ -1,0 +1,145 @@
+{% extends 'site_telefonie/baza.html' %}
+{%block content %}
+<h1>Contactează-ne</h1>
+
+{% if mesaj_trim %}
+    <p style="color:green;">Mesajul a fost trimis cu succes!</p>
+{% endif %}
+
+<style>
+    .error-message {
+        color: red;
+        font-size: 0.85em;  /* mai mic decât textul normal */
+        margin-top: 2px;
+        display: block;
+    }
+</style>
+
+<form method="post">
+    {% csrf_token %}
+
+    <p>
+        {{ form.nume.label_tag }}<br>
+        {{ form.nume }}<br>
+        {% if form.nume.errors %}
+        <ul>
+                {% for error in form.nume.errors %}
+                    <li style="color: red;">{{ error }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </p>
+
+    <p>
+        {{ form.prenume.label_tag }}<br>
+        {{ form.prenume }}<br>
+        {% if form.prenume.errors %}
+        {{ form.prenume.errors }}<ul>
+                {% for error in form.prenume.errors %}
+                    <li style="color: red;">{{ error }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </p>
+
+    <p>
+        {{ form.cnp.label_tag }}<br>
+        {{ form.cnp }}<br>
+        {% if form.cnp.errors %}
+        <ul>
+                {% for error in form.cnp.errors %}
+                    <li style="color: red;">{{ error }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </p>
+
+    <p>
+        {{ form.data_nasterii.label_tag }}<br>
+        {{ form.data_nasterii }}<br>
+        {% if form.data_nasterii.errors %}
+        <ul>
+                {% for error in form.data_nasterii.errors %}
+                    <li style="color: red;">{{ error }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </p>
+
+    <p>
+        {{ form.email.label_tag }}<br>
+        {{ form.email }}<br>
+        {% if form.email.errors %}
+        <ul>
+                {% for error in form.email.errors %}
+                    <li style="color: red;">{{ error }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </p>
+
+    <p>
+        {{ form.confirmare_email.label_tag }}<br>
+        {{ form.confirmare_email }}<br>
+        {% if form.confirmare_email.errors %}
+        <ul>
+                {% for error in form.confirmare_email.errors %}
+                    <li style="color: red;">{{ error }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </p>
+
+    <p>
+        {{ form.tip_mesaj.label_tag }}<br>
+        {{ form.tip_mesaj }}<br>
+        {% if form.tip_mesaj.errors %}
+        <ul>
+                {% for error in form.mesaj.errors %}
+                    <li style="color: red;">{{ error }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </p>
+
+    <p>
+        {{ form.subiect.label_tag }}<br>
+        {{ form.subiect }}<br>
+        {% if form.subiect.errors %}
+        <ul>
+                {% for error in form.subiect.errors %}
+                    <li style="color: red;">{{ error }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </p>
+
+    <p>
+        {{ form.minim_zile_asteptare.label_tag }}<br>
+        {{ form.minim_zile_asteptare }}<br>
+        <small>{{ form.minim_zile_asteptare.help_text }}</small><br>
+        {% if form.minim_zile_asteptare.errors %}
+        <ul>
+                {% for error in form.minim_zile_asteptare.errors %}
+                    <li style="color: red;">{{ error }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </p>
+
+    <p>
+        {{ form.mesaj.label_tag }}<br>
+        {{ form.mesaj }}<br>
+        {% if form.mesaj.errors %}
+        <ul>
+                {% for error in form.mesaj.errors %}
+                    <li style="color: red;">{{ error }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </p>
+
+    <button type="submit" name="submit">Trimite</button>
+    <a href="{% url 'contact' %}" onclick="return confirm('Se vor șterge filtrele. Sigur doriți?')">Reset filtre</a>
+</form>
+{% endblock %}

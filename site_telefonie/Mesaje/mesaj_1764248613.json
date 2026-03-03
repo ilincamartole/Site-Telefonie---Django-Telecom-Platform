@@ -1,0 +1,14 @@
+{
+    "nume": "Maria",
+    "prenume": "",
+    "cnp": "2050204556789",
+    "email": "ilinca-maria.martole@s.unibuc.ro",
+    "tip_mesaj": "intrebare",
+    "subiect": "d2",
+    "minim_zile_asteptare": 3,
+    "mesaj": "Totul e in regula. asta este Maria",
+    "varsta": "20 ani și 9 luni",
+    "urgent": false,
+    "ip_utilizator": "127.0.0.1",
+    "data_ora_trimitere": "2025-11-27 15:03:33"
+}

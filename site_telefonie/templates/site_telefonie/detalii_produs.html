@@ -1,0 +1,47 @@
+
+{% extends 'site_telefonie/baza.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="container product-page">
+
+    <h1>{{ produs.nume }}</h1>
+    <p class="lead">Preț: <strong>{{ produs.pret }} RON</strong></p>
+    <hr>
+
+    {% if detalii %}
+
+        {% if detalii.imagine %}
+            <img src="{{ detalii.imagine.url }}" alt="{{ detalii.nume }}" class="product-image">
+        {% endif %}
+
+        {% if tip_produs == 'serviciu' %}
+            <p><strong>Tip:</strong> {{ detalii.get_tip_display }}</p>
+            <p><strong>Taxă Activare:</strong> {{ detalii.taxa_activare }} RON</p>
+            <p><strong>Descriere:</strong></p>
+            <div class="descriere">{{ detalii.descriere_serviciu|linebreaks }}</div>
+
+        {% elif tip_produs == 'telefon' %}
+            <p><strong>Brand:</strong> {{ detalii.brand }}</p>
+            <p><strong>Model:</strong> {{ detalii.model }}</p>
+            <p><strong>Stoc:</strong>
+                {% if detalii.stoc > 0 %}
+                    <span class="in-stoc">În stoc ({{ detalii.stoc }} buc)</span>
+                {% else %}
+                    <span class="epuizat">Epuizat</span>
+                {% endif %}
+            </p>
+            <p><strong>IMEI:</strong> {{ detalii.cod_imei }}</p>
+            <p><strong>Descriere:</strong></p>
+            <div class="descriere">{{ detalii.descriere_telefon|linebreaks }}</div>
+        {% endif %}
+
+    {% else %}
+        <p class="epuizat">Eroare: Tipul de produs nu a putut fi identificat.</p>
+    {% endif %}
+
+    <p><a href="{% url 'lista_produse' %}">&larr; Înapoi la Lista de Produse</a></p>
+
+</div>
+{% endblock %}

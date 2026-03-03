@@ -1,0 +1,78 @@
+
+{% extends 'site_telefonie/baza.html' %}
+{%load static%}
+
+{% block title %}Pagina principală{% endblock %}
+
+{% block content %}
+
+
+{% if user.is_authenticated %}
+    <form method="post" action="{% url 'claim_oferta' %}" id="oferta-form" style="margin:10px 0;">
+    {% csrf_token %}
+    <button type="submit" id="oferta-banner"
+            style="display:none; cursor:pointer; padding:12px; border:1px solid #ccc; width:100%;">
+    <strong>OFERTA: reducere 50%!</strong>
+    </button>
+    </form>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            console.log("Banner script loaded"); // debug
+
+            if (Math.random() < 0.3) {  // 30% șansa de afisare
+                const banner = document.getElementById("oferta-banner");
+                console.log("Banner element:", banner); // debug
+
+                if (!banner) return;
+
+                banner.style.display = "block";
+
+                let grow = true;
+                setInterval(() => {
+                    const s = banner.style.transform || "scale(1)";
+                    const current = parseFloat(s.replace("scale(", "").replace(")", "")) || 1;
+                    const next = grow ? current + 0.01 : current - 0.01;
+                    banner.style.transform = "scale(" + next.toFixed(2) + ")";
+                    if (next >= 1.06) grow = false;
+                    if (next <= 1.00) grow = true;
+                }, 30);
+
+                banner.addEventListener("click", async () => {
+                    try {
+                        const resp = await fetch("{% url 'claim_oferta' %}", {
+                            method: "POST",
+                            headers: {
+                                "X-CSRFToken": "{{ csrf_token }}",
+                            },
+                        });
+                        console.log("claim_oferta status:", resp.status); // debug
+                        if (resp.ok) window.location.href = "{% url 'oferta_speciala' %}";
+                        else alert("Nu s-a putut activa oferta (status " + resp.status + ").");
+                    } catch (e) {
+                        console.error(e);
+                        alert("Eroare la activarea ofertei.");
+                    }
+                });
+            }
+        });
+    </script>
+    {% endif %}
+<h1>Bine ai venit la Site Telefonie!</h1>
+<img src="{% static 'images/poza1.jpg' %}" alt="Banner" width="600">
+
+<section id="sectiune1">
+    <h2>Servicii</h2>
+    <p>Oferim servicii de telefonie mobilă și internet la cele mai bune prețuri.</p>
+</section>
+
+<section id="sectiune2">
+    <h2>Pachete</h2>
+    <p>Alege pachetul perfect pentru nevoile tale de comunicație.</p>
+</section>
+
+<section id="sectiune3">
+    <h2>Promoții</h2>
+    <p>Profită de reducerile valabile doar în această perioadă!</p>
+</section>
+{% endblock %}

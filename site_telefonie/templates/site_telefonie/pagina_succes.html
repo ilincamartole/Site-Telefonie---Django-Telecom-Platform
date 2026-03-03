@@ -1,0 +1,7 @@
+{% extends 'site_telefonie/baza.html' %}  {% block content %}
+<div class="container text-center mt-5">
+    <h2>🎉 Operațiune reușită!</h2>
+    <p>{{ mesaj }}</p>
+    <a href="{% url 'adauga_produs' %}?tip=telefon" class="btn btn-primary">Adaugă alt produs</a>
+    </div>
+{% endblock %}

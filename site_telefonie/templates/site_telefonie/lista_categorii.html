@@ -1,0 +1,27 @@
+{% extends 'site_telefonie/baza.html' %}
+{% block content %}
+
+<h1>Lista categoriilor disponibile</h1>
+
+<div class="container" style="max-width: 800px; margin: 0 auto;">
+
+    {% for categorie in categorii %}
+        <div class="card" style="border:1px solid #ccc; border-radius:8px; padding:15px; margin-bottom:15px;">
+            <h2>
+                <a href="{% url 'pachete_categorie' nume_categorie=categorie.nume_categorie %}">
+                    <i class="{{ categorie.icon }}"></i> {{ categorie.nume_categorie }}
+
+                </a>
+            
+            </h2>
+            {% if categorie.descriere_categorie %}
+                <p>{{ categorie.descriere_categorie|truncatechars:100 }}</p>
+            {% endif %}
+        </div>
+    {% empty %}
+        <p>Nu există categorii de afișat.</p>
+    {% endfor %}
+
+</div>
+
+{% endblock %}
